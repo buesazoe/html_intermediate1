@@ -108,7 +108,7 @@
         document.getElementById("registration-form").addEventListener("submit", function(event) {
             event.preventDefault();
 
-            // Get input values
+            
             var lastName = document.getElementById("last_name").value;
             var firstName = document.getElementById("first_name").value;
             var middleName = document.getElementById("middle_name").value;
@@ -116,7 +116,6 @@
             var department = document.getElementById("department").value;
             var office = document.getElementById("office").value;
 
-            // Display values in the console
             console.log("Last Name: " + lastName);
             console.log("First Name: " + firstName);
             console.log("Middle Name: " + middleName);
@@ -124,8 +123,6 @@
             console.log("Department: " + department);
             console.log("Office: " + office);
 
-            // You can submit the form to the server here if needed
-            // this.submit();
         });
     </script>	
 	
